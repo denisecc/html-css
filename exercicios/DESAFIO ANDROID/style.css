@@ -78,6 +78,18 @@ main > p{
     text-align: justify;
     line-height: 2em;
 }
+div.video{
+    background-color: #0d2e1c;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 20px;
+    padding-bottom: 56%;
+}
+div.video > iframe{
+    position: absolute;
+    margin-left: 10px;
+    
+}
 section > h3{
     background-color: #37C374;
     color: white;
@@ -90,6 +102,7 @@ section{
     background-color: #84e1ac9c;
     border-radius: 5px;
     text-indent: 30px;   
+    margin-top: 30px;
 }
 section > p{
     padding: 0px 5px 5px 5px;
