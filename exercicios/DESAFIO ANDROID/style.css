@@ -84,6 +84,9 @@ div.video{
     margin-right: -10px;
     padding: 20px;
     padding-bottom: 56%;
+   
+
+    
 }
 div.video > iframe{
     position: absolute;
