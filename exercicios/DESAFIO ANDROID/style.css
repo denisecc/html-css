@@ -14,7 +14,7 @@ body{
     
 }
 header{
-    height: 140px;
+    max-height: 140px;
     padding: 10px;
     background-image: linear-gradient(to top, #1A5C38, #24804D, #2DA060, #37C374);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
@@ -42,6 +42,7 @@ nav > a{
     border-radius: 3px;
     font-weight: bold;
     transition-duration: 0.5s;
+max-width: 500px;
 }
 nav > a:hover{
     background-color: #2DA060;
@@ -83,14 +84,13 @@ div.video{
     margin-left: -10px;
     margin-right: -10px;
     padding: 20px;
-    padding-bottom: 56%;
-   
-
+    padding-bottom: 336px;
     
 }
 div.video > iframe{
     position: absolute;
     margin-left: 10px;
+    max-width: 87%;
     
 }
 section > h3{
@@ -100,12 +100,12 @@ section > h3{
     padding: 8px;
 }
 section{
-    width: 580px;
+    max-width: 580px;
     margin: auto;
     background-color: #84e1ac9c;
     border-radius: 5px;
     text-indent: 30px;   
-    margin-top: 30px;
+    margin-top: 40px;
 }
 section > p{
     padding: 0px 5px 5px 5px;
