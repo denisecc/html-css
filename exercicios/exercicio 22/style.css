@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header{
+    background-color: blueviolet;
+    padding: 70px;
+    color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: blueviolet;
+    padding-left: 40px;
+   
+}
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
