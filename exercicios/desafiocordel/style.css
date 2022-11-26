@@ -7,12 +7,16 @@
     font-family: titulo;
     src: url(PassionOne-Regular.ttf);
 }
+html, body{
+    min-height: 100vh;
+}
 
 header{
     background-color: black;
     color: white;
     text-align: center;
-    height: 190px;
+    
+    
 }
 *{
     margin: 0px;
@@ -20,14 +24,48 @@ header{
 }
 
 header h1{
-    padding: 40px;
+    padding-top: 50px;
     font-family: 'titulo', Arial, Helvetica, sans-serif;
-    font-size: 65px;
-    margin-bottom: -30px;
+    font-size: 10vw;
+    font-variant: small-caps;
+
 }
 
 header p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    padding-bottom: 50px;
    
+}
+article{
+    font-family: 'seila', Arial, Helvetica, sans-serif;
+    padding: 30px;
+    font-size: 5vw;
+    margin-top: 40px;
+}
+article#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+article#cartas{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 580px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
