@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de alguns comandos</title>
+    <style>
+        table{
+            border-collapse:collapse ;
+            
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+           
+        }
+        thead{
+            background-color: blueviolet;
+            color: white;
+        }
+        tfoot{
+            background-color: blueviolet;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vou criar uma tabela simples</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Estados</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Sao Paulo</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Rio de Janeiro</th>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Minas Gerais</th>
+                <td>3</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total</th>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h1>Vou criar um formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" placeholder="Digite seu nome completo" required>
+        </p>
+
+        <p>
+            <label for="inasc">Data de Nascimento: </label>
+            <input type="date" name="nasc" id="inasc" required>
+        </p>
+
+        <p>
+            <label for="icor">Cor favorita: </label>
+            <input type="color" name="cor" id="icor">
+        </p>
+
+        <p>
+            <label for="imes">Mês atual</label>
+            <input type="month" name="mes" id="imes" required>
+        </p>
+
+        <p>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isexom">
+            <label for="isexom">Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="isexof">
+            <label for="isexof">Feminino</label>
+        </p>
+
+        <p>
+            <legend>Esporte</legend>
+            <input type="checkbox" name="futebol" id="ifutebol">
+            <label for="ifutebol">Futebol</label> <br>
+
+            <input type="checkbox" name="basquete" id="ibasquete">
+            <label for="ibasquete">Basquete</label>
+        </p>
+
+        
+    </form>
+</body>
+</html>
