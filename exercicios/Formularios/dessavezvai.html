@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos lá</title>
+</head>
+<body>
+    <h1>CALCULANDO...</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        
+        <p>
+            <label for="num1">Primeiro número: </label>
+            <input type="number" name="n1" id="num1" min="0" max="50" oninput="soma.innerHTML = Number(num1.value) + Number(num2.value)">
+        </p>
+
+        <p>
+            <label for="num2">Segundo número: </label>
+            <input type="number" name="n2" id="num2" min="0" max="50" oninput="soma.innerHTML = Number(num1.value) + Number(num2.value)">
+        </p>
+
+        <p>
+            <label for="soma">Soma: </label>
+            <output id="soma">0</output>
+        </p>
+
+    </form>
+</body>
+</html>
